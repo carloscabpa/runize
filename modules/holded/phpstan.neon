@@ -1,0 +1,35 @@
+parameters:
+    reportUnmatchedIgnoredErrors: false
+    ignoreErrors:
+        - '#Class [a-zA-Z0-9\\_]+ not found.#'
+        - '#Function [a-zA-Z0-9\\_]+ not found.#'
+        - '#Instantiated class [a-zA-Z0-9\\_]+ not found.#'
+        - '#Call to method [a-zA-Z0-9\\_\(\)]+ on an unknown class [a-zA-Z0-9\\_]+.#'
+        - '#Call to static method [a-zA-Z0-9\\_\(\)]+ on an unknown class [a-zA-Z0-9\\_]+.#'
+        - '#Constant [\$a-zA-Z0-9\\_\(\)\:\|]+ not found.#'
+        - '#Call to an undefined method [a-zA-Z0-9\\_\(\)\:\|]+[shouldReceive|andReturn]\(\).#'
+        - '#Access to property [\$a-zA-Z0-9\\_\(\)\:\|]+ on an unknown class [a-zA-Z0-9\\_\(\)\:\|]+.#'
+        - '#Access to an undefined property Mockery\\LegacyMockInterface\:\:[\$a-zA-Z0-9\\_\(\)\:\|]+.#'
+        - '#Access to an undefined property Holded\\Prestashop\\Holded\:\:[\$a-zA-Z0-9\\_\(\)\:\|]+.#'
+        - '#PHPDoc tag \@var for variable \$pProduct contains unknown class Product.#'
+        - '#Parameter \#[0-9] \$[\$a-zA-Z0-9\\_\(\)\:\|]+ of static method Holded\\Prestashop\\Adapters\\[\$a-zA-Z0-9\\_\(\)\:\|]+\:\:fromPrestashopToDTO\(\) expects [\$a-zA-Z0-9\\_\(\)\:\|]+.#'
+        - '#Access to static property \$currentIndex on an unknown class AdminController.#'
+        - '#Call to an undefined method Holded\\Prestashop\\Holded::registerHook\(\).#'
+        - '#Call to an undefined static method Module\:\:[\$a-zA-Z0-9\\_\(\)\:\|]+\(\).#'
+        - '#Parameter \$[\$a-zA-Z0-9\\_\(\)\:\|]+ of method Holded\\Prestashop\\Adapters\\ProductAdapter\:\:fromPrestashopToDTO\(\) has invalid typehint type Product.#'
+        - "#Offset '[\\$a-zA-Z0-9\\\\_\\(\\)\\:\\|]+' does not exist on array\\('ecotax' => float\\).#"
+        - '#Parameter \$[\$a-zA-Z0-9\\_\(\)\:\|]+ of method Holded\\Prestashop\\Adapters\\OrderAdapter\:\:[\$a-zA-Z0-9\\_\(\)\:\|]+\(\) has invalid typehint type [\$a-zA-Z0-9\\_\(\)\:\|]+.#'
+        - '#Property Holded\\SDK\\DTOs\\Order\\Item\:\:\$stock \(string\) does not accept float.#'
+        - '#Access to an undefined property Holded\\Prestashop\\Controllers\\ExportProductsController\:\:\$context.#'
+        - '#Parameter \$[\$a-zA-Z0-9\\_\(\)\:\|]+ of method Holded\\Prestashop\\Services\\ShopService\:\:createShop\(\) has invalid typehint type Shop.#'
+    level: 8
+    paths:
+        - src
+        - sdk
+        - tests
+    excludes_analyse:
+        - 'tests/mocks.php'
+    scanFiles:
+        - vendor/autoload.php
+    bootstrapFiles:
+        - phpstan.autoloader.php

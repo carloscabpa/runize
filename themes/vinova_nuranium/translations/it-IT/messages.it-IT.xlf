@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novadvancedsearch\novadvancedsearch-top.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3">
+        <source>Search</source>
+        <target>Ricerca</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novadvancedsearch\novadvancedsearch-top.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="a6a2a55bea8760389dfca77132905b7c">
+        <source>All Categories</source>
+        <target>tutte le categorie</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novadvancedsearch\novadvancedsearch-top.tpl:61</note>
+      </trans-unit>
+      <trans-unit id="65c3c9970bd056027a4e868f53b209e0">
+        <source>Enter search keywords</source>
+        <target>Inserisci parole chiave di ricerca</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novadvancedsearch\novadvancedsearch-top.tpl:76</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments-extra.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="457dd55184faedb7885afd4009d70163">
+        <source>Review</source>
+        <target>Revisione</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments-extra.tpl:19</note>
+      </trans-unit>
+      <trans-unit id="899139b5174d8d7a6e38a0360008a695">
+        <source>Read reviews</source>
+        <target>Leggi le recensioni</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments-extra.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="c31732fda0c6f01c446db7163b214de4">
+        <source>Write a review</source>
+        <target>Scrivere una recensione</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments-extra.tpl:37</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="ab51a81c76d95ddc762194d58ec5db63">
+        <source>Are you sure that you want to report this comment?</source>
+        <target>Sei sicuro di voler segnalare questo commento?</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:17</note>
+      </trans-unit>
+      <trans-unit id="9a2ccd41653469a8bd94fbb84b271a14">
+        <source>Your comment has been added!</source>
+        <target>Il tuo commento è stato aggiunto!</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:20</note>
+      </trans-unit>
+      <trans-unit id="b20968d9aecd2d075519992e9e2f1ffe">
+        <source>Your comment has been submitted and will be available once approved by a moderator.</source>
+        <target>Il tuo commento è stato inviato e sarà disponibile una volta approvato da un moderatore.</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:21</note>
+      </trans-unit>
+      <trans-unit id="186c30cab59f6b64a453778330d4bbf0">
+        <source>New comment</source>
+        <target>Nuovo commento</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:22</note>
+      </trans-unit>
+      <trans-unit id="e0aa021e21dddbd6d8cecec71e9cf564">
+        <source>OK</source>
+        <target>Ok</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:23</note>
+      </trans-unit>
+      <trans-unit id="4b3b9db8c9784468094acde0f8bf7071">
+        <source>Grade</source>
+        <target>Grado</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="b5c82723bd85856358f9a376bc613998">
+        <source>%1$d out of %2$d people found this review useful.</source>
+        <target>%1$d out of %2$d people found this review useful.</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:54</note>
+      </trans-unit>
+      <trans-unit id="39630ad6ee79b8653ea89194cdb45bec">
+        <source>Was this comment useful to you?</source>
+        <target>questo commento ti è stato utile?</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="a6105c0a611b41b08f1209506350279e">
+        <source>yes</source>
+        <target>sì</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="7fa3b767c460b54a2be4d49030b349c7">
+        <source>no</source>
+        <target>no</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="4b1b4dc8cf38b3c64b1d657da8f5ac8c">
+        <source>Report</source>
+        <target>rapporto</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:61</note>
+      </trans-unit>
+      <trans-unit id="7966126831926ad29c528b239d69f855">
+        <source>Write your review</source>
+        <target>Scrivi la tua recensione</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:92</note>
+      </trans-unit>
+      <trans-unit id="fbe2625bf3673be380d043a4bf873f28">
+        <source>Be the first to write your review</source>
+        <target>Sii il primo a scrivere una recensione</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:77</note>
+      </trans-unit>
+      <trans-unit id="08c7d6f84301ee7d0aab0a5f67edc419">
+        <source>No customer reviews for the moment.</source>
+        <target>Non ci sono recensioni dei clienti per il momento.</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:80</note>
+      </trans-unit>
+      <trans-unit id="45dacce3e2bc0f7bebde95098b9326a8">
+        <source>Title for your review</source>
+        <target>Titolo per la tua recensione</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:131</note>
+      </trans-unit>
+      <trans-unit id="3421ad00975533fbbd5f17d2cb568125">
+        <source>Your review</source>
+        <target>Il tuo commento</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:134</note>
+      </trans-unit>
+      <trans-unit id="221e705c06e231636fdbccfdd14f4d5c">
+        <source>Your name</source>
+        <target>Il tuo nome</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:138</note>
+      </trans-unit>
+      <trans-unit id="70397c4b252a5168c5ec003931cea215">
+        <source>Required fields</source>
+        <target>Campi richiesti</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:144</note>
+      </trans-unit>
+      <trans-unit id="94966d90747b97d1f0f206c98a8b1ac3">
+        <source>Send</source>
+        <target>Spedire</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments.tpl:146</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments_reviews.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="a1608e6e696be6b7929448f07b28e051">
+        <source><![CDATA[printf('%s Reviews',$_smarty_tpl->tpl_vars['nbComments']->value]]></source>
+        <target><![CDATA[printf('%s Reviews',$_smarty_tpl->tpl_vars['nbComments']->value]]></target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novproductcomments\novproductcomments_reviews.tpl:24</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_categorytree\views\templates\hook\ps_categorytree.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0">
+        <source>Categories</source>
+        <target>categorie</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_categorytree\views\templates\hook\ps_categorytree.tpl:69</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\_partials\layout\header\style-9.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="037eeebf494cfb39f94eef0dd5655852">
+        <source>My Wishlists</source>
+        <target>Le mie liste dei desideri</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\_partials\layout\header\style-9.tpl:50</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_facetedsearch\ps_facetedsearch.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="1f0e9c979b965d24aa3c2c4b832c3ba1">
+        <source>Filter by</source>
+        <target>Filtra per</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_facetedsearch\ps_facetedsearch.tpl:3</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\tagresult.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="5c109ac48b3cfcce1b09a084b7139ce1">
+        <source>All Blog News</source>
+        <target>Tutte le notizie sul blog</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\tagresult.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="3e0c1ff6070d2ad64af75e2f48170739">
+        <source>No Post in This Tag</source>
+        <target>Nessun post in questo tag</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\tagresult.tpl:35</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\archivecategory.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="468c8383d26ecb84b5f805435f401a8b">
+        <source>No Post in Archive</source>
+        <target>Nessun post in archivio</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\archivecategory.tpl:5</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\category_loop.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="9d77490498951bba42f9bd7ae09e30e9">
+        <source>Posted by : </source>
+        <target>Pubblicato da : </target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\category_loop.tpl:162</note>
+      </trans-unit>
+      <trans-unit id="8413c683b4b27cc3f4dbd4c90329d8ba">
+        <source>Comments</source>
+        <target>Commenti</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\category_loop.tpl:171</note>
+      </trans-unit>
+      <trans-unit id="43340e6cc4e88197d57f8d6d5ea50a46">
+        <source>Read more</source>
+        <target>Leggi di più</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\category_loop.tpl:186</note>
+      </trans-unit>
+      <trans-unit id="d89dc5dc1aede197cfebb0528fe39838">
+        <source>view more</source>
+        <target>vedi di più</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\category_loop.tpl:82</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\comment_loop.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="9daedfe9b63b15570620775719e8df57">
+        <source>Comment in </source>
+        <target>Commenta in </target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\comment_loop.tpl:10</note>
+      </trans-unit>
+      <trans-unit id="25d8df6e580905091a0d5ef5b9e05bf0">
+        <source>Reply</source>
+        <target>rispondere</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\comment_loop.tpl:15</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\posts.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="f386bccd2fe9a73a61bee9b9b414a61c">
+        <source> Comments</source>
+        <target> Commenti</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\posts.tpl:88</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\search-not-found.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="c6d3b2e35e3cc80cca139f6698d94e48">
+        <source>Sorry, but nothing matched your search terms.</source>
+        <target>Siamo spiacenti, ma nulla corrisponde ai tuoi termini di ricerca.</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\search-not-found.tpl:5</note>
+      </trans-unit>
+      <trans-unit id="2bd4ce53155ef2501456e9c93fbaa679">
+        <source>Please try again with some different keywords.</source>
+        <target>Riprova con alcune parole chiave diverse.</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\search-not-found.tpl:7</note>
+      </trans-unit>
+      <trans-unit id="a60852f204ed8028c1c58808b746d115">
+        <source>Ok</source>
+        <target>Ok</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\search-not-found.tpl:16</note>
+      </trans-unit>
+      <trans-unit id="7b19b37e7fc3dfe3c3e1ad5b84c7f565">
+        <source>Home page</source>
+        <target>Pagina iniziale</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblog\views\templates\front\search-not-found.tpl:21</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogcategories\new-smartblogcategories.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="3adbdb3ac060038aa0e6e6c138ef9873">
+        <source>Category</source>
+        <target>Categoria</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogcategories\new-smartblogcategories.tpl:79</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartbloghomelatestnews\views\templates\front\smartblog_latest_news.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="decbe415d8accca7c2c16d48a79ee934">
+        <source>Read More</source>
+        <target>Read More</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartbloghomelatestnews\views\templates\front\smartblog_latest_news.tpl:35</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogpopularposts\views\templates\front\smartblogpopularposts.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="3f8ab412eb8ab369ea3f5c04db23febc">
+        <source>Popular Articles</source>
+        <target>Articoli popolari</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogpopularposts\views\templates\front\smartblogpopularposts.tpl:3</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogrecentposts\views\templates\front\smartblogrecentposts.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="43eabef16cc9c1702542a370405489ce">
+        <source>New Post</source>
+        <target>Nuovo post</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogrecentposts\views\templates\front\smartblogrecentposts.tpl:4</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogrelatedposts\views\templates\front\smartblogrelatedposts.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="9780790c790dbfd6d8036afeac3745b4">
+        <source>Related</source>
+        <target>Relazionato</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogrelatedposts\views\templates\front\smartblogrelatedposts.tpl:3</note>
+      </trans-unit>
+      <trans-unit id="dd1ba1872df91985ed1ca4cde2dfe669">
+        <source>News</source>
+        <target>notizia</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogrelatedposts\views\templates\front\smartblogrelatedposts.tpl:3</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogsearch\views\templates\front\smartblogsearch.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="496d09a4b58f276873f653cbd25f8ced">
+        <source>Blog Search</source>
+        <target>Ricerca Blog</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogsearch\views\templates\front\smartblogsearch.tpl:4</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogtag\views\templates\front\smartblogtag.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="7b247f76c157672226ab7131e6ac91c0">
+        <source>Popular Tags</source>
+        <target>Tag popolari</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\smartblogtag\views\templates\front\smartblogtag.tpl:3</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\catalog\_partials\facets.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="d854d05db4b16b4d15b16d6b991ea452">
+        <source>Manufacture</source>
+        <target>Produzione</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\catalog\_partials\facets.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\catalog\_partials\miniatures\product-relate.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="2d0f6b8300be19cf35e89e66f0677f95">
+        <source>Add to cart</source>
+        <target>Aggiungi al carrello</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\catalog\_partials\miniatures\product-relate.tpl:101</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\layouts\layout-both-columns.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="08bd40c7543007ad06e4fce31618f6ec">
+        <source>Account</source>
+        <target>account</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\layouts\layout-both-columns.tpl:202</note>
+      </trans-unit>
+      <trans-unit id="386c339d37e737a436499d423a77df0c">
+        <source>Currency</source>
+        <target>Moneta</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\layouts\layout-both-columns.tpl:212</note>
+      </trans-unit>
+      <trans-unit id="4994a8ffeba4ac3140beb89e8d41f174">
+        <source>Language</source>
+        <target>linguaggio</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\layouts\layout-both-columns.tpl:213</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\errors\not-found.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="7e74146e0ff2e289abfc8bec1d2b2a18">
+        <source>Sorry for the inconvenience.</source>
+        <target>Ci dispiace per l'inconvenienza.</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\errors\not-found.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="84d9573d77435d23507ba3809cfc6efc">
+        <source>Search again what you are looking for.</source>
+        <target>Cerca di nuovo quello che stai cercando.</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\errors\not-found.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="38563dee8ec9b2588c22dd3d4686c5aa">
+        <source>Back to homepage</source>
+        <target>Torna alla homepage</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\errors\not-found.tpl:30</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\_partials\layout\header\style-22.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="e0fd9b310aba555f96e76738ff192ac3">
+        <source>Wishlists</source>
+        <target>Lista dei desideri</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\_partials\layout\header\style-22.tpl:47</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\_partials\layout\header\style-21.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="723edf7c24638ed18d2fa831e647a5cc">
+        <source>wishlist</source>
+        <target>Lista dei desideri</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\_partials\layout\header\style-21.tpl:38</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\administrator" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="7f124e9e5cd4424117efcb8d7efbdcdc">
+        <source><![CDATA[printf('%s Reviews',$_smarty_tpl->tpl_vars['averageTotal']->value]]></source>
+        <target><![CDATA[printf('%s Reviews',$_smarty_tpl->tpl_vars['averageTotal']->value]]></target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\administrator:</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

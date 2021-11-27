@@ -1,0 +1,35 @@
+{
+    "name": "holded/prestashop-plugin",
+    "description": "Holded plugin for a Prestashop App",
+    "license": [
+        "proprietary"
+    ],
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Holded\\Prestashop\\": "src",
+            "Holded\\SDK\\": "sdk"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Holded\\SDK\\Tests\\Unit\\": "tests/unit/sdk",
+            "Holded\\Prestashop\\Tests\\Unit\\": "tests/unit/src"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "mockery/mockery": "^1.3",
+        "php-mock/php-mock": "^2.3",
+        "phpstan/phpstan": "^0.12.78",
+        "friendsofphp/php-cs-fixer": "^2.18"
+    },
+    "require": {
+        "symfony/http-client": "^4.4"
+    }
+}

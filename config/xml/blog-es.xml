@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/es/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/es/blog/feed.xml</link>
+    <description></description>
+    <language>es</language>
+     <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Desafíos en la logística de los eCommerce </title>
+    <link>https://www.prestashop.com/es/blog/desafios-logistica-packlink</link>
+    <description>En 2010, alrededor del 55% de usuarios de internet ent</description>
+     <pubDate>Tue, 23 Nov 2021 17:26:07 +0100</pubDate>
+ <dc:creator>Magali Kajingu Enciso</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/desafios-logistica-packlink</guid>
+  </item>
+  <item>
+    <title>Módulos PrestaShop para vender más y sacar el máximo partido a tus redes</title>
+    <link>https://www.prestashop.com/es/blog/modulos-redes-sociales-prestashop</link>
+    <description>Las redes sociales se han convertido en uno de los esenciales de nuestro día a día. </description>
+     <pubDate>Wed, 17 Nov 2021 15:09:35 +0100</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/modulos-redes-sociales-prestashop</guid>
+  </item>
+  <item>
+    <title>Cómo automatizar la contabilidad de tu e-commerce</title>
+    <link>https://www.prestashop.com/es/blog/automatizar-contabilidad-ecommerce</link>
+    <description>Cuando tu tienda online funciona, los movimientos bancarios y la contabilidad aumentan, haciendo que sea todo un desafío controlar y gestionar la liquidez del negocio.</description>
+     <pubDate>Wed, 17 Nov 2021 14:59:35 +0100</pubDate>
+ <dc:creator>Qonto España</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/automatizar-contabilidad-ecommerce</guid>
+  </item>
+  <item>
+    <title>Linkbuilding y cómo crear una estrategia de enlaces para eCommerce</title>
+    <link>https://www.prestashop.com/es/blog/introduccion-linkbuilding</link>
+    <description>En la recta final de 2020, Facebook anunció que lanzaba una nueva función que permitiría encontrar contenidos de forma más sencilla en Instagram, a través de palabras clave y no únicamente por hash</description>
+     <pubDate>Wed, 17 Nov 2021 14:09:13 +0100</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/introduccion-linkbuilding</guid>
+  </item>
+  <item>
+    <title>Catchalot, la exitosa adaptación de una zapatería familiar al eCommerce</title>
+    <link>https://www.prestashop.com/es/blog/adaptacion-ecommerce-catchalot</link>
+    <description>En mayo de este año nos reunimos con Daniel Miguelez, CMO de Catchalot, un negocio familiar de</description>
+     <pubDate>Mon, 08 Nov 2021 14:42:38 +0100</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/adaptacion-ecommerce-catchalot</guid>
+  </item>
+  <item>
+    <title>¿Por qué mi tienda online debería empezar a vender a través de TikTok?</title>
+    <link>https://www.prestashop.com/es/blog/tendencias-ecommerce-tiktok</link>
+    <description>La red social de vídeos cortos, TikTok, alcanzaba en e</description>
+     <pubDate>Wed, 03 Nov 2021 17:33:06 +0100</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/tendencias-ecommerce-tiktok</guid>
+  </item>
+  <item>
+    <title>SEO y CRO, dos disciplinas fundamentales para e-commerce</title>
+    <link>https://www.prestashop.com/es/blog/seo-cro-fundamental-ecommerce</link>
+    <description>El CRO (Conversion Rate Optimization) y el SEO (Search Engine Optimization) cada vez están más cerca.</description>
+     <pubDate>Tue, 26 Oct 2021 10:59:42 +0200</pubDate>
+ <dc:creator>Adrián Pulido</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/seo-cro-fundamental-ecommerce</guid>
+  </item>
+  <item>
+    <title>Black Friday está aquí, y las ventas de fin de año llegarán pronto</title>
+    <link>https://www.prestashop.com/es/blog/black-friday-navidad-ecommerce</link>
+    <description>Mientras la crisis sanitaria y los cierres del año pasado hayan impactado el consumo en las tiendas, 2020 fue un buen año para el Black Friday.</description>
+     <pubDate>Thu, 21 Oct 2021 10:28:20 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/black-friday-navidad-ecommerce</guid>
+  </item>
+  <item>
+    <title>Decántalo, un eCommerce de vinos sin igual</title>
+    <link>https://www.prestashop.com/es/blog/caso-exito-decantalo-vino</link>
+    <description>El pasado mes de abril nos reunimos con Héctor Plá, co-fundador e eCommerce Marketing Online Manager de Decántalo, un eCommerce dedicado a la vent</description>
+     <pubDate>Mon, 18 Oct 2021 15:42:27 +0200</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/caso-exito-decantalo-vino</guid>
+  </item>
+  <item>
+    <title>Guía de Instagram Ads ¿cómo crear una campaña para tu negocio?</title>
+    <link>https://www.prestashop.com/es/blog/crear-instagram-ads-ecommerce</link>
+    <description>Si tienes una tienda online, sea del sector que sea, conviene prestar atención a las redes sociales, especialmente </description>
+     <pubDate>Fri, 15 Oct 2021 16:59:11 +0200</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/crear-instagram-ads-ecommerce</guid>
+  </item>
+  </channel>
+</rss>

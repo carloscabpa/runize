@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_contactinfo\nav.tpl" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="c6359db4a43cb7267a84b389229fd073">
+        <source>Call us: [1]%phone%[/1]</source>
+        <target>Call us: [1]%phone%[/1]</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_contactinfo\nav.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="02d4482d332e1aef3437cd61c9bcc624">
+        <source>Contact us</source>
+        <target>Skontaktuj się z nami</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_contactinfo\nav.tpl:39</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_contactinfo\ps_contactinfo-rich.tpl" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="29759e0d5a6d47301b8ad6c17cbc8648">
+        <source>Call Customer Services </source>
+        <target>Zadzwoń do działu obsługi klienta </target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_contactinfo\ps_contactinfo-rich.tpl:69</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_contactinfo\ps_contactinfo.tpl" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="dd7bf230fde8d4836917806aff6a6b27">
+        <source>Address</source>
+        <target>Adres</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_contactinfo\ps_contactinfo.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d">
+        <source>Email</source>
+        <target>E-mail</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_contactinfo\ps_contactinfo.tpl:67</note>
+      </trans-unit>
+      <trans-unit id="9c3c95f2341c187050ae1e729d7fea82">
+        <source>Call Customer Services, We Support 24/7</source>
+        <target>Zadzwoń do działu obsługi klienta, wspieramy 24/7</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_contactinfo\ps_contactinfo.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="22fcffe02ab9eda5b769387122f2ddce">
+        <source>Address2</source>
+        <target>Adres 2 </target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_contactinfo\ps_contactinfo.tpl:56</note>
+      </trans-unit>
+      <trans-unit id="da6eb684bd77243a780629a180c9d19b">
+        <source>Fax: [1]%fax%[/1]</source>
+        <target>Fax: [1]%fax%[/1]</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\ps_contactinfo\ps_contactinfo.tpl:79</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

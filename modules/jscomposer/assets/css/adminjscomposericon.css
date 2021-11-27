@@ -1,0 +1,66 @@
+.icon-Adminjscomposer{
+	/*background: url('../../../image/admin-logo.png') no-repeat scroll 0 0;
+	background-position: center center; 
+	height: inherit; 
+	background-size: contain;
+	height: 16px;
+	width: 18px;*/
+}
+
+.icon-Adminjscomposer:before{
+	content: "\f194";
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+}
+.vc_backoffice #footer{
+    display:none;
+}
+.wpb_row_container > .wpb_vc_column_inner{
+	height: auto !important;
+}
+@media (min-width: 768px){
+    #edit-specific-price-modal .modal-dialog {
+        margin: 0px auto;
+        width: 560px;
+    }
+}
+#edit-specific-price-modal.in{
+	opacity: 1;
+	max-height: 800px;
+}
+#edit-specific-price-modal.fade .modal-dialog{
+	transform: translateY(0);
+}
+#edit-specific-price-modal .modal-dialog .modal-header .close{
+	padding: 10px;
+	margin: 0;
+	top: 0;
+
+}
+#edit-specific-price-modal .modal-dialog #edit-specific-price-modal-form{
+	max-height: initial!important;
+}
+.collapse.in {
+    display: block;
+}
+.modal-backdrop.in{
+	opacity: 0.8 !important;
+}
+.modal.fade .modal-dialog{
+	transform: translateY(0%) !important;
+}
+#edit-specific-price-modal.in{
+	opacity: 1;
+}
+.type-translatable .dropdown.open .dropdown-menu, .dropdown-clickable.open >.dropdown-menu{
+	display: block !important;
+}
+#edit-specific-price-modal .modal-dialog #edit-specific-price-modal-form{
+	max-height: initial!important;
+}
+.wpb_row_container > .wpb_vc_column_inner{
+	height: auto!important;
+}

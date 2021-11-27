@@ -1,0 +1,80 @@
+
+steps:
+  - name: gcr.io/hbuild/php-fpm:7.4
+    id: prepare
+    waitFor: ['-']
+    entrypoint: /bin/sh
+    args:
+      - '-c'
+      - '-x'
+      - '-e'
+      - |
+        true > manifest.json
+        cat <<EOT >> manifest.json
+        {
+          "BUILD_COMMIT": "$SHORT_SHA",
+          "BUILD_BRANCH": "$BRANCH_NAME",
+          "BUILD_SHORT_SHA": "$SHORT_SHA",
+          "BUILD_VERSION": "$BUILD_ID",
+          "BUILD_DATE": "$(date -u -Iseconds)",
+          "BUILD_TIMESTAMP": "$(date +%s)",
+          "BUILD_ENV_NAME": "$(echo $BRANCH_NAME | tr '[:upper:]' '[:lower:]' | sed 's/\//-/g;s/_/-/g;s/[[:space:]]//g')"
+        }
+        EOT
+
+        composer install --prefer-dist --no-scripts --no-interaction --no-progress --no-suggest --optimize-autoloader --no-dev
+        composer validate --strict
+        composer check-platform-reqs
+        make zip
+
+  - name: gcr.io/hbuild/docker-compose:1.28.6
+    id: compose-ci-services
+    waitFor: [ 'prepare' ]
+    entrypoint: /bin/sh
+    args:
+      - '-c'
+      - '-x'
+      - '-e'
+      - |
+        docker-compose up -d
+
+  - name: gcr.io/hbuild/php-fpm:7.4
+    id: prepare_develop_zip
+    waitFor: ['prepare', 'compose-ci-services']
+    entrypoint: /bin/sh
+    args:
+      - '-c'
+      - '-x'
+      - '-e'
+      - |
+        composer install
+        make zip-and-install-develop
+
+  - name: gcr.io/hbuild/docker-compose:1.28.6
+    id: acceptance-test-backend
+    waitFor: [ prepare, compose-ci-services, prepare_develop_zip ]
+    entrypoint: /bin/sh
+    args:
+      - '-c'
+      - '-x'
+      - '-e'
+      - |
+        docker exec -u 0 prestashop rm -f /bitnami/prestashop/modules/holded/vendor/bin/phpunit
+        docker exec -u 0 prestashop ln -s /bitnami/prestashop/modules/holded/vendor/phpunit/phpunit/phpunit /bitnami/prestashop/modules/holded/vendor/bin/phpunit
+        docker exec -u 0 prestashop ls -l /bitnami/prestashop
+        docker exec prestashop /bitnami/prestashop/modules/holded/vendor/bin/php-cs-fixer --config=/bitnami/prestashop/modules/holded/.php_cs.dist fix --dry-run --stop-on-violation --using-cache=no
+        docker exec prestashop /bitnami/prestashop/modules/holded/vendor/bin/phpstan analyse -c /bitnami/prestashop/modules/holded/phpstan.neon  --memory-limit 1024M --no-progress
+        docker exec -u 0 prestashop /bitnami/prestashop/modules/holded/vendor/bin/phpunit /bitnami/prestashop/modules/holded/tests --configuration=/bitnami/prestashop/modules/holded/phpunit.xml --default-time-limit=5
+
+
+  - name: gcr.io/cloud-builders/gsutil
+    waitFor: ['acceptance-test-backend']
+    args:
+      - rsync
+      - '-c'
+      - 'dist'
+      - 'gs://holded-app-dev-a612-ecommerce-plugins/prestashop/$BRANCH_NAME/'
+
+timeout: '420s'
+options:
+  machineType: 'N1_HIGHCPU_8'
