@@ -1,1 +1,112 @@
 .vinovathemes{background-color:#000}
+
+
+/* GLOBAL */
+.btn:hover, .btn:focus {
+    background-color: #4c4c4c;
+}
+
+
+
+
+
+/* HEADER - MENU */
+#header.header-style-39 .nov-megamenu .menu>li.active>a, #header.header-style-39 .nov-megamenu .menu>li:hover>a {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+.nov-megamenu .menu>li.has-sub>a:after {
+    vertical-align: inherit;
+}
+
+#header.header-style-39 .blockcart .header-cart .cart-products-count {
+    background: #000;
+}
+
+
+
+
+
+/* REVSLIDER */
+#rev_slider_45_1 .custom-ares-1 .tp-bullet:hover, #rev_slider_45_1 .custom-ares-1 .tp-bullet.selected {
+    background: rgba(255, 255, 255, 0.6) !important;
+}
+
+
+
+
+/* SIDEBAR & FILTERS */
+.sidebar > .block-categories {
+    display: none;
+}
+.active_filters .filter-block {
+    background: #000;
+}
+#search_filters_wrapper .title_block span:before {
+    background: #000;
+}
+.active_filters .filter-block:hover {
+    background: #4c4c4c;
+}
+#search_filters .ui-slider-horizontal .ui-widget-header {
+    background: #000;
+}
+#search_filters .ui-slider .ui-slider-handle {
+    border: 6px solid #000;
+}
+
+.change-type span.active, .change-type span:hover {
+    background: #000;
+}
+.pagination .page-list li.current a, .pagination .page-list li.current span, .pagination .page-list li:hover a, .pagination .page-list li:hover span {
+    background: #000;
+}
+
+
+
+
+
+
+
+/* PRODUCT TABS */
+.nov-category-productlist .nov-tabs > a {
+    align-items: center;
+    padding: 0 !important;
+    justify-content: center;
+    display: flex;
+}
+
+.nov-category-productlist .nov-tabs > a > div.title_category {
+    display: none !important;
+}
+
+.home-38-edit .nov-category-productlist .nov-tabs>a>img {
+    max-height: 60px;
+}
+.title_block.style-2 .title_content:after {
+    background: #000;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    background: #000;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    background: #000;
+}
+
+
+
+
+
+
+
+/* BACK TO TOP */
+#_desktop_back_top #back-top span {
+    background-color: #000;
+}
+
+
+
+/* FOOTER */
+.footer.footer-style-34 .block_newsletter .input-group .input-group-btn .btn:hover {
+    background: #000;
+}
