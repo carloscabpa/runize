@@ -13,7 +13,7 @@
   </div>
 {/block}
 
-<div class="container container-1800">
+<div class="container">
   {block name='header_top'}
     <div class="header-top hidden-sm-down header-color-1">
       <div class="row align-items-center no-gutters">
@@ -23,7 +23,7 @@
         <div id="_desktop_logo" class="contentsticky_logo col-md-2 text-center">
           {if isset($novconfig.novthemeconfig_customlogo) && $novconfig.novthemeconfig_customlogo && isset($novconfig.novthemeconfig_customlogo_enable) && $novconfig.novthemeconfig_customlogo_enable == 1}
             <a href="{$urls.base_url}">
-              <img class="logo img-fluid" src="{$img_dir_themeconfig}logos/{$novconfig.novthemeconfig_customlogo}.png" alt="{$shop.name}">
+              <img class="logo img-fluid" src="{$img_dir_themeconfig}logos/{$novconfig.novthemeconfig_customlogo}.svg" alt="{$shop.name}" width="75">
             </a>
           {else}
             <a href="{$urls.base_url}">
@@ -35,12 +35,17 @@
           <div id="_desktop_advancsearch">{hook h='displayAdvanceSearch'}</div>
           <div class="group-account">
             <span class="toggle-popup-login" data-toggle="modal" data-target="#toggle_popup_login">
-              <i class="novicon_account small m-0"></i>
+{*              <i class="bi bi-person font-size-15"></i>*}
+              <i class="fa fa-user-o font-size-15"></i>
+
+{*              <i class="novicon_account small m-0"></i>*}
             </span>
           </div>
           <div class="link_wishlist">
             <a href="{$link->getModuleLink('novblockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}" title="{l s='My Wishlists' mod='novblockwishlist'}">
-              <i class="novicon_wishlist small"></i>
+              <i class="bi bi-heart font-size-15"></i>
+
+              {*              <i class="novicon_wishlist small"></i>*}
             </a>
           </div>
           <div class="contentsticky_cart">{hook h='displayNav2'}</div>
@@ -69,8 +74,8 @@
   <div id="header-sticky">
     <div class="container">
       <div class="row align-items-center">
-        <div class="contentstickynew_logo col-xl-3 col-lg-2"></div>
-        <div class="contentstickynew_menu col-xl-6 col-lg-7 position-static"></div>
+        <div class="contentstickynew_logo col-xl-2 col-lg-2"></div>
+        <div class="contentstickynew_menu col-xl-7 col-lg-7 position-static"></div>
         <div class="contentstickynew_cart d-flex justify-content-end col-lg-3"></div>
       </div>
     </div>

@@ -129,28 +129,28 @@
                                     </div>
                                 {/if}
 
-                                {if Product::getProductCategoriesFull(Tools::getValue('id_product'))}
-                                    <div class="pro-cate mb-5">
-                                        <label class="control-label">{l s='Categories' d='Shop.Theme.Actions'}:</label>
-                                        {foreach from=Product::getProductCategoriesFull(Tools::getValue('id_product')) item=cat}
-                                            {if $cat.link_rewrite =='home'}
-                                            {else}
-                                                <span><a href="{$link->getCategoryLink({$cat.id_category})}" title="{$cat.name}">{$cat.name}</a></span>
-                                                {/if}
-                                            {/foreach}
-                                    </div>
-                                {/if}
+{*                                {if Product::getProductCategoriesFull(Tools::getValue('id_product'))}*}
+{*                                    <div class="pro-cate mb-5">*}
+{*                                        <label class="control-label">{l s='Categories' d='Shop.Theme.Actions'}:</label>*}
+{*                                        {foreach from=Product::getProductCategoriesFull(Tools::getValue('id_product')) item=cat}*}
+{*                                            {if $cat.link_rewrite =='home'}*}
+{*                                            {else}*}
+{*                                                <span><a href="{$link->getCategoryLink({$cat.id_category})}" title="{$cat.name}">{$cat.name}</a></span>*}
+{*                                                {/if}*}
+{*                                            {/foreach}*}
+{*                                    </div>*}
+{*                                {/if}*}
 
-                                {if Tag::getProductTags(Tools::getValue('id_product'))}
-                                    <div class="pro-tag">
-                                        <label class="control-label">{l s='Tags' d='Shop.Theme.Actions'}:</label>
-                                        {foreach from=Tag::getProductTags(Tools::getValue('id_product')) key=k item=v}
-                                            {foreach from=$v item=value}
-                                                <span><a href="{$link->getPageLink('search', true, NULL, "tag={$value|urlencode}")}">{$value|escape:html:'UTF-8'}</a></span>
-                                                {/foreach}
-                                            {/foreach}
-                                    </div>
-                                {/if}
+{*                                {if Tag::getProductTags(Tools::getValue('id_product'))}*}
+{*                                    <div class="pro-tag">*}
+{*                                        <label class="control-label">{l s='Tags' d='Shop.Theme.Actions'}:</label>*}
+{*                                        {foreach from=Tag::getProductTags(Tools::getValue('id_product')) key=k item=v}*}
+{*                                            {foreach from=$v item=value}*}
+{*                                                <span><a href="{$link->getPageLink('search', true, NULL, "tag={$value|urlencode}")}">{$value|escape:html:'UTF-8'}</a></span>*}
+{*                                                {/foreach}*}
+{*                                            {/foreach}*}
+{*                                    </div>*}
+{*                                {/if}*}
                                 <div class="product-information">
                                     {if $product.is_customizable && count($product.customizations.fields)}
                                         {block name='product_customization'}
@@ -169,13 +169,13 @@
                                                     {include file='catalog/_partials/product-variants.tpl'}
                                                 {/block}
 
-                                                <div class="productbuttons in_border">
-                                                    {* <a href="#" class="btn btn-link text-uppercase"><i class="zmdi zmdi-chart"></i>{l s='Size Guide' d='Shop.Theme.Actions'}</a> *}
-                                                    {hook h='displayProductButtons' product=$product}
-                                                    <a class="btn btn-link" href="javascript:print();">
-                                                        <span><i class="fa fa-print" aria-hidden="true"></i>{l s='Print' d='Shop.Theme.Actions'}</span>
-                                                    </a>
-                                                </div>
+{*                                                <div class="productbuttons in_border">*}
+{*                                                    *}{* <a href="#" class="btn btn-link text-uppercase"><i class="zmdi zmdi-chart"></i>{l s='Size Guide' d='Shop.Theme.Actions'}</a> *}
+{*                                                    {hook h='displayProductButtons' product=$product}*}
+{*                                                    <a class="btn btn-link" href="javascript:print();">*}
+{*                                                        <span><i class="fa fa-print" aria-hidden="true"></i>{l s='Print' d='Shop.Theme.Actions'}</span>*}
+{*                                                    </a>*}
+{*                                                </div>*}
 
                                                 {block name='product_pack'}
                                                     {if $packItems}
@@ -216,9 +216,9 @@
                                         <a class="nav-link{if $product.description} active{/if}" data-toggle="tab" href="#description">{l s='Description' d='Shop.Theme.Catalog'}</a>
                                     </li>
                                 {/if}
-                                <li class="nav-item">
-                                    <a class="nav-link{if !$product.description} active{/if}" data-toggle="tab" href="#product-details">{l s='Product Details' d='Shop.Theme.Catalog'}</a>
-                                </li>
+{*                                <li class="nav-item">*}
+{*                                    <a class="nav-link{if !$product.description} active{/if}" data-toggle="tab" href="#product-details">{l s='Product Details' d='Shop.Theme.Catalog'}</a>*}
+{*                                </li>*}
                                 {if $product.attachments}
                                     <li class="nav-item">
                                         <a class="nav-link" data-toggle="tab" href="#attachments">{l s='Attachments' d='Shop.Theme.Catalog'}</a>
@@ -238,9 +238,9 @@
                                     {/block}
                                 </div>
 
-                                {block name='product_details'}
-                                    {include file='catalog/_partials/product-details.tpl'}
-                                {/block}
+{*                                {block name='product_details'}*}
+{*                                    {include file='catalog/_partials/product-details.tpl'}*}
+{*                                {/block}*}
 
                                 {block name='product_attachments'}
                                     {if $product.attachments}

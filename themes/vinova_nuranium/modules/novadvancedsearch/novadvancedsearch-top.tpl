@@ -44,7 +44,10 @@
          data-search_ssl="{$search_ssl}"
          data-link_search_ssl="{if $search_ssl == 1}{$link->getPageLink('search', true)|addslashes}{else}{$link->getPageLink('search')|addslashes}{/if}"
          data-action="{$link->getModuleLink('novadvancedsearch', 'result')|escape:'html'}">
-        <div class="toggle-search"><i class="icon-header-search"></i>
+        <div class="toggle-search">
+            <i class="bi bi-search font-size-15"></i>
+
+            {*            <i class="icon-header-search"></i>*}
             {if isset($class_homepage) && $class_homepage == 'home-40'}
                 <span class="d-block title_icon">{l s='Search' d='Modules.Novadvancedsearch.Search'}</span>
             {/if}
