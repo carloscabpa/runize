@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\contact.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="9cfc9b74983d504ec71db33967591249">
+        <source>Contact Us</source>
+        <target>Contáctenos</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\contact.tpl:65</note>
+      </trans-unit>
+      <trans-unit id="7395b4b835b1b1181877e30985d38ed9">
+        <source>Write a message</source>
+        <target>Escribe un mensaje</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\contact.tpl:75</note>
+      </trans-unit>
+      <trans-unit id="da32096ffc8913bebdcc1d2efb328419">
+        <source>If you got any questions, please do not hesitate to send us a message. We reply within 24 hours !</source>
+        <target>Si tiene alguna pregunta, no dude en enviarnos un mensaje. ¡Respondemos dentro de las 24 horas!</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\contact.tpl:76</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

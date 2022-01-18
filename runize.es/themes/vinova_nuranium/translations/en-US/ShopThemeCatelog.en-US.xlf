@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\catalog\_partials\active_filters.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="2143f8cb66482342b35208bdc3fd949c">
+        <source>Active filters</source>
+        <target>Active filters</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\catalog\_partials\active_filters.tpl:26</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\catalog\_partials\sort-orders.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="6f9d01a14011f05fffe48559583fc609">
+        <source>Sort by:</source>
+        <target>Sort by:</target>
+        <note>Context:
+File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\templates\catalog\_partials\sort-orders.tpl:25</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
