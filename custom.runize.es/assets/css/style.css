@@ -1722,11 +1722,11 @@ div.controls {
   display: inline-block;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
-  font-size: 36px;
-  line-height: 41px;
+  font-size: 25px;
+  line-height: 40px;
   font-weight: 100;
   text-transform: uppercase;
-  margin-right: 25px;
+  margin-right: 15px;
   position: relative;
   color: #333;
 }
