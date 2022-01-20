@@ -29,7 +29,8 @@
   {block name='cart_summary_products'}
     <div class="cart-summary-products">
       <div class="summary-label d-flex align-items-center">
-        <span>{l s='There are %cart_item% in your cart' sprintf=['%cart_item%' => $cart.summary_string] d='Shop.Theme.Checkout'}</span>
+{*        <span>{l s='There are %cart_item% in your cart' sprintf=['%cart_item%' => $cart.summary_string] d='Shop.Theme.Checkout'}</span>*}
+        <span>{l s='Hay %cart_item% en tu carrito' sprintf=['%cart_item%' => $cart.summary_string] }</span>
         <span class="show-details ml-auto">
           <a href="#" data-toggle="collapse" data-target="#cart-summary-product-list">
           </a>
@@ -56,7 +57,7 @@
               {if 'products' == $subtotal.type}
                 {l s="Total products" d='Shop.Theme.Checkout'}:
               {else}
-                {l s='Total %label_subtotal%' sprintf=['%label_subtotal%' => $subtotal.label] d='Shop.Theme.Checkout'}:
+                {l s='%label_subtotal%' sprintf=['%label_subtotal%' => $subtotal.label] d='Shop.Theme.Checkout'}:
               {/if}
             </span>
             <span class="value">{$subtotal.value}</span>

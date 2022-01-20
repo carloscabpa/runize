@@ -28,7 +28,7 @@
     <div class="cart-summary-line cart-total{if empty($cart.vouchers.allowed) || $cart.discounts|count < 1} has_border{/if}">
       <div class="d-flex">
         <span>
-          <span class="label">{$cart.totals.total.label}</span>&nbsp;<span class="font-small">{$cart.labels.tax_short}</span>
+          <span class="label">{$cart.totals.total.label}</span>&nbsp
         </span>
         <span class="value label ml-auto">{$cart.totals.total.value}</span>
       </div>

@@ -159,7 +159,7 @@
       </trans-unit>
       <trans-unit id="800e90e940e7f1fb938b0fda5137f38c" approved="yes">
         <source>On sale!</source>
-        <target state="final">¡En oferta!</target>
+        <target state="final">¡Oferta!</target>
         <note>Line: 444</note>
       </trans-unit>
       <trans-unit id="63b539babcf7978229d66ba4052ca71f" approved="yes">

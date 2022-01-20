@@ -79,6 +79,10 @@ main > aside#notifications {
 #header .group-login i {
     margin-right: 0px;
 }
+.language-selector {
+    display: none;
+}
+
 
 /*#header .nov-megamenu .menu>li.active>a, #header .nov-megamenu .menu>li:hover>a, .menu>li>a:focus, .menu>li>a:hover {*/
 /*    color: var(--green) !important;*/
@@ -113,8 +117,10 @@ main > aside#notifications {
 #rev_slider_45_1 .custom-ares-1 .tp-bullet:hover, #rev_slider_45_1 .custom-ares-1 .tp-bullet.selected {
     background: rgba(255, 255, 255, 0.6) !important;
 }
-
-
+.tp-bullet {
+    width: 10px;
+    height: 10px;
+}
 
 
 /* SIDEBAR & FILTERS */
@@ -152,10 +158,10 @@ main > aside#notifications {
 /*.product_list .product-flags.new {*/
 /*    background: var(--green);*/
 /*}*/
-/*.product_list .product-flags.on-sale {*/
-/*    background: var(--violet);*/
-/*    width: 75px;*/
-/*}*/
+.product_list .product-flags.on-sale {
+    background: var(--dark_green);
+    /*width: 75px;*/
+}
 
 
 
@@ -229,6 +235,10 @@ main > aside#notifications {
 
 
 
+/* CHECKOUT */
+/*#save_card > p > span.label {*/
+/*    display: none;*/
+/*}*/
 
 
 

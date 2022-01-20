@@ -27,7 +27,7 @@
     <body>
       <trans-unit id="823e713a0e72b5dc3d75a71a7bbc6274" approved="yes">
         <source>I agree to the [terms of service] and will adhere to them unconditionally.</source>
-        <target state="final">Estoy de acuerdo con los [términos del servicio] y los acepto sin reservas.</target>
+        <target state="final">Estoy de acuerdo con los [términos y condiciones] y los acepto.</target>
         <note>Line: 53</note>
       </trans-unit>
     </body>
@@ -36,12 +36,12 @@
     <body>
       <trans-unit id="464f47d6975750e4cbd91c90ccf1791e" approved="yes">
         <source>%price% tax incl.</source>
-        <target state="final">%price% imp incl.</target>
+        <target state="final">%price%</target>
         <note>Line: 101</note>
       </trans-unit>
       <trans-unit id="e532954941a2469e3b3ae35ce44885d6" approved="yes">
         <source>%price% tax excl.</source>
-        <target state="final">%price% impuestos excl.</target>
+        <target state="final">%price%</target>
         <note>Line: 110</note>
       </trans-unit>
     </body>
@@ -131,12 +131,12 @@
       </trans-unit>
       <trans-unit id="adc852563bca51fb6b10c7905010406d" approved="yes">
         <source>Total (tax incl.)</source>
-        <target state="final">Total (impuestos incl.)</target>
+        <target state="final">Total</target>
         <note>Line: 403</note>
       </trans-unit>
       <trans-unit id="8faf99e02e4d0ccb4dd933404f87a4ea" approved="yes">
         <source>Total (tax excl.)</source>
-        <target state="final">Total (impuestos excl.)</target>
+        <target state="final">Total</target>
         <note>Line: 409</note>
       </trans-unit>
       <trans-unit id="7e0eb131cbb6280fe2b38edf92a3bcc5" approved="yes">
@@ -257,7 +257,7 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
     <body>
       <trans-unit id="544c3bd0eac526113a9c66542be1e5bc" approved="yes">
         <source>Product successfully added to your shopping cart</source>
-        <target state="final">Producto añadido correctamente a su carrito de compra</target>
+        <target state="final">Producto añadido correctamente a su carrito</target>
         <note>Line: 32</note>
       </trans-unit>
       <trans-unit id="3d0d1f906e27800531e054a3b6787b7c" approved="yes">
