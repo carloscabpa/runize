@@ -1,0 +1,35 @@
+parent: vinova_nuranium
+name: vinova_nuranium_child
+display_name: PrestaShop Nuranium Child
+version: 1.0.0
+author:
+  name: "VinovaThemes Team"
+  email: "vinovathemes@gmail.com"
+  url: "http://vinovathemes.com"
+
+meta:
+  compatibility:
+      from: 1.7.5.0
+      to: ~
+      
+  available_layouts:
+    layout-one-column:
+      name: One Columns
+      description: One Columns, No side columns and no full-width, ideal for distraction-free pages such as product pages.
+    layout-both-columns:
+      name: Three Columns
+      description: One large central column and 2 side columns.
+    layout-left-column:
+      name: Two Columns, small left column
+      description: Two columns with a small left column
+    layout-right-column:
+      name: Two Columns, small right column
+      description: Two columns with a small right column
+    layout-full-width:
+      name: Full Width
+      description: No side columns, fullwidth layout
+
+assets:
+  # If you're using this theme as child and you want to load
+  # the parent theme assets, uncomment this line.
+  use_parent_assets: true

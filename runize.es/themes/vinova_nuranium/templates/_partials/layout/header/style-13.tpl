@@ -37,14 +37,12 @@
             <span class="toggle-popup-login" data-toggle="modal" data-target="#toggle_popup_login">
 {*              <i class="bi bi-person font-size-15"></i>*}
               <i class="fa fa-user-o font-size-15"></i>
-
 {*              <i class="novicon_account small m-0"></i>*}
             </span>
           </div>
           <div class="link_wishlist">
             <a href="{$link->getModuleLink('novblockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}" title="{l s='My Wishlists' mod='novblockwishlist'}">
               <i class="bi bi-heart font-size-15"></i>
-
               {*              <i class="novicon_wishlist small"></i>*}
             </a>
           </div>

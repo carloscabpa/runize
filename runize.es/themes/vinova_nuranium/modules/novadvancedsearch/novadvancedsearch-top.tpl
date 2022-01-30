@@ -29,7 +29,7 @@
             <input type="hidden" name="controller" value="search" />
             <input type="hidden" name="orderby" value="position" />
             <input type="hidden" name="orderway" value="desc" />
-            <input class="search_query" type="search" id="search_query_top" name="search_query" placeholder="{l s='Search' d='Modules.Novadvancedsearch.Search'}" value="{$search_query|escape:'html':'UTF-8'|stripslashes}" />
+            <input class="search_query" type="search" id="search_query_top" name="search_query" placeholder="Buscar..." />
         </form>
     </div>
 {else}
@@ -80,7 +80,7 @@
                     </ul>
                 </div>
 
-                <input type="text" id="search_query_top" class="search_query ui-autocomplete-input form-control" name="search_query" value="{$search_query|escape:'html':'UTF-8'|stripslashes}" placeholder="{if $novconfig.novthemeconfig_header_style == 'style-20' || $novconfig.novthemeconfig_header_style == 'style-21'}{l s='Search' d='Modules.Novadvancedsearch.Search'}{else}{l s='Enter search keywords' d='Shop.Theme.Search'}{/if}"/>
+                <input type="text" id="search_query_top" class="search_query ui-autocomplete-input form-control" name="search_query" value="{$search_query|escape:'html':'UTF-8'|stripslashes}" placeholder="Buscar..."/>
                 <span class="btn_search">
                     <button type="submit" name="submit_search">{* {l s='Search' d='Modules.Novadvancedsearch.Search'} *} {if isset($class_homepage) && $class_homepage == 'home-40'}<i class="zmdi zmdi-forward"></i>{else}<i class="material-icons">search</i>{/if}</button>
                 </span>

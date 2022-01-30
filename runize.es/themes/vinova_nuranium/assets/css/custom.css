@@ -83,6 +83,23 @@ main > aside#notifications {
     display: none;
 }
 
+@media (max-width: 480px) {
+    .header-mobile .mobile_logo {
+        min-width: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .header-mobile .mobile_logo {
+        min-width: 50px;
+        margin-right: 10px;
+    }
+}
+
+
+
+
 
 /*#header .nov-megamenu .menu>li.active>a, #header .nov-megamenu .menu>li:hover>a, .menu>li>a:focus, .menu>li>a:hover {*/
 /*    color: var(--green) !important;*/
@@ -161,6 +178,14 @@ main > aside#notifications {
 .product_list .product-flags.on-sale {
     background: var(--dark_green);
     /*width: 75px;*/
+}
+
+
+
+/* MODULE - PRODUCT TABS  */
+ul.nav.nav-tabs {
+    min-height: 40px;
+    overflow-y: hidden;
 }
 
 

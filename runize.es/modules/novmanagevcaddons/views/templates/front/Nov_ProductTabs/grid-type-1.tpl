@@ -22,7 +22,7 @@
 				</h2>
 			{/if}
 		{/if}
-		<div class="d-flex align-items-center d-xs-block{if $tabs_style == '2' || $tabs_style == '3' || $tabs_style == '4' || $tabs_style == '7'} justify-content-center{/if} block_nav">
+		<div class="d-flex align-items-center {if $tabs_style == '2' || $tabs_style == '3' || $tabs_style == '4' || $tabs_style == '7'} justify-content-center{/if} block_nav">
 			{if $tabs_style == '1' || $tabs_style == '6'}
 				{if isset($title) && !empty($title)}
 					<h2 class="title_block">

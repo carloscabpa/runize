@@ -10,12 +10,12 @@
         <div class="cart-left">
           <div class="shopping-cart">
               <i class="bi bi-bag font-size-15"></i>
-{*              {l s='Cart Icon' d='Shop.Theme.Checkout'}*}
+              {l s='Cart Icon' d='Shop.Theme.Checkout'}
           </div>
         </div>
-{*        <div class="cart-right">*}
-{*          <span class="title-cart title_icon">{l s='My Cart' d='Shop.Theme.Checkout'}</span>*}
-{*        </div>  *}
+        <div class="cart-right">
+          <span class="title-cart title_icon d-md-none d-lg-none d-xl-none">{l s='My Cart' d='Shop.Theme.Checkout'}</span>
+        </div>
         <span class="cart-products-count">{$cart.products_count}</span>
         <span class="label-items d-xs-none">{l s='items' d='Shop.Theme.Checkout'}</span>
       </div>

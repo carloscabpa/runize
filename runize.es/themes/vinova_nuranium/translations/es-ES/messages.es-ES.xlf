@@ -16,7 +16,7 @@ File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\n
       </trans-unit>
       <trans-unit id="65c3c9970bd056027a4e868f53b209e0">
         <source>Enter search keywords</source>
-        <target>Ingrese palabras clave de búsqueda</target>
+        <target>Buscar ..</target>
         <note>Context:
 File: D:\VINOVA\htdocs\prestashop_nuranium_1752\themes\vinova_nuranium\modules\novadvancedsearch\novadvancedsearch-top.tpl:76</note>
       </trans-unit>

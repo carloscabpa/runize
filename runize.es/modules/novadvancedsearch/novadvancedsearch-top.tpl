@@ -67,7 +67,7 @@
 			        {/if}
 			    </ul >
 			</div>
-			<input type="text" id="search_query_top" class="search_query ui-autocomplete-input form-control" name="search_query" value="{$search_query|escape:'html':'UTF-8'|stripslashes}" placeholder="{l s='Search' mod='novadvancedsearch'}"/>
+			<input type="text" id="search_query_top" class="search_query ui-autocomplete-input form-control" name="search_query" value="{$search_query|escape:'html':'UTF-8'|stripslashes}" placeholder="Buscar..."/>
 			<span class="input-group-btn">
 				 <button class="btn btn-secondary" type="submit" name="submit_search">{* {l s='Search' mod='novadvancedsearch'} *}<i class="material-icons">search</i></button>
 			</span>
@@ -92,7 +92,7 @@
 		<input type="hidden" name="orderway" value="desc" />
 		<input type="hidden" name="id_category" class="id_category" value="0" />
 		<div class="input-group">
-			<input type="text" id="search_query_top" class="search_query ui-autocomplete-input form-control" name="search_query" value="{$search_query|escape:'html':'UTF-8'|stripslashes}" placeholder="{l s='Search' mod='novadvancedsearch'}"/>
+			<input type="text" id="search_query_top" class="search_query ui-autocomplete-input form-control" name="search_query" value="{$search_query|escape:'html':'UTF-8'|stripslashes}" placeholder="Buscar..."/>
 
 			<div class="input-group-btn nov_category_tree hidden-sm-down">
 			    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" value="" aria-expanded="false">

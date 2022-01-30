@@ -253,11 +253,11 @@
         <div id="stickymenu_bottom_mobile">
             <div class="row align-items-center justify-content-center hidden-md-up text-center no-gutters">
                 <div class="stickymenu-item col">
-                    <a href="{$urls.base_url}"><i class="icon-house"></i><span>{l s='Home' d='Shop.Theme.Layout'}</span></a>
+                    <a href="{$urls.base_url}"><i class="bi bi-house font-size-20"></i><span>Inicio</span></a>
                 </div>
                 {if isset($novconfig.novthemeconfig_bottom_nav_wishlist_disable) && $novconfig.novthemeconfig_bottom_nav_wishlist_disable == 1}
                     <div class="stickymenu-item col">
-                        <a href="{$link->getModuleLink('novblockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}"><i class="zmdi zmdi-favorite-outline"></i><span>{l s='Wishlist' d='Shop.Theme.Layout'}</span></a>
+                        <a href="{$link->getModuleLink('novblockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}"><i class="bi bi-heart font-size-18"></i><span>Favoritos</span></a>
                     </div>
                 {/if}
                 <div class="stickymenu-item col">
@@ -270,10 +270,36 @@
                 {/if}
                 {if isset($novconfig.novthemeconfig_on_top_disable) && $novconfig.novthemeconfig_on_top_disable == 1}
                     <div class="stickymenu-item col"><div id="_mobile_back_top"></div></div>
-                    {/if}
+                {/if}
             </div>
         </div>
     {/block}
+{*    {block name="stickymenu_bottom_mobile"}*}
+{*        <div id="stickymenu_bottom_mobile">*}
+{*            <div class="row align-items-center justify-content-center hidden-md-up text-center no-gutters">*}
+{*                <div class="stickymenu-item col">*}
+{*                    <a href="{$urls.base_url}"><i class="icon-house"></i><span>{l s='Home' d='Shop.Theme.Layout'}</span></a>*}
+{*                </div>*}
+{*                {if isset($novconfig.novthemeconfig_bottom_nav_wishlist_disable) && $novconfig.novthemeconfig_bottom_nav_wishlist_disable == 1}*}
+{*                    <div class="stickymenu-item col">*}
+{*                        <a href="{$link->getModuleLink('novblockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}"><i class="bi bi-heart font-size-15"></i><span>{l s='Wishlist' d='Shop.Theme.Layout'}</span></a>*}
+{*                    </div>*}
+{*                {/if}*}
+{*                <div class="stickymenu-item col">*}
+{*                    <div id="_mobile_cart_bottom" class="nov-toggle-page" data-target="#mobile-blockcart"></div>*}
+{*                    <span>Mi carrito</span>*}
+{*                </div>*}
+{*                {if isset($novconfig.novthemeconfig_bottom_nav_setting_disable) && $novconfig.novthemeconfig_bottom_nav_setting_disable == 1}*}
+{*                    <div class="stickymenu-item col">*}
+{*                        <a href="#" class="nov-toggle-page" data-target="#mobile-pageaccount"><i class="icon-settings"></i><span>{l s='Setting' d='Shop.Theme.Layout'}</span></a>*}
+{*                    </div>*}
+{*                {/if}*}
+{*                {if isset($novconfig.novthemeconfig_on_top_disable) && $novconfig.novthemeconfig_on_top_disable == 1}*}
+{*                    <div class="stickymenu-item col"><div id="_mobile_back_top"></div></div>*}
+{*                {/if}*}
+{*            </div>*}
+{*        </div>*}
+{*    {/block}*}
 {/if}
 
 <div class="modal-login modal fade">
